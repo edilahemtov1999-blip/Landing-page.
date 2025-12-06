@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курс: Основы Веб-разработки</title>
+    <style>
+        body {font-family: Arial, sans-serif; margin: 0; padding: 0; color: #222;}
+        header {background: #4a6cf7; color: white; padding: 70px 20px; text-align: center;}
+        header h1 {font-size: 42px; margin-bottom: 10px;}
+        header p {font-size: 20px; margin-bottom: 25px;}
+        header a {
+            background: white; color: #4a6cf7; padding: 12px 25px;
+            text-decoration: none; border-radius: 6px; font-weight: bold;
+        }
+
+        section {padding: 50px 20px; max-width: 900px; margin: auto;}
+        .advantages, .reviews {background: #f3f4f7;}
+
+        .gallery {display: flex; gap: 15px; flex-wrap: wrap;}
+        .gallery div {
+            background: #ddd; width: 30%; min-width: 200px;
+            height: 150px; border-radius: 8px;
+        }
+
+        footer {
+            background: #222; color: white; padding: 20px;
+            text-align: center; margin-top: 40px;
+        }
+
+        form input, form button {
+            display: block; width: 100%; padding: 12px; margin-bottom: 10px;
+            border-radius: 6px; border: 1px solid #ccc;
+        }
+
+        form button {
+            background: #4a6cf7; color: white; border: none; font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Освой веб-разработку за 30 дней</h1>
+    <p>Практический онлайн-курс для начинающих</p>
+    <a href="https://example.com">Записаться на курс</a>
+</header>
+
+<section>
+    <h2>О курсе</h2>
+    <p>Научись создавать современные сайты с нуля. Каждую неделю — новый проект, поддержка наставника и практические задания.</p>
+</section>
+
+<section class="advantages">
+    <h2>Преимущества</h2>
+    <ul>
+        <li>Подходит для новичков</li>
+        <li>Много практики</li>
+        <li>Наставник-разработчик</li>
+        <li>Гибкий график</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Галерея</h2>
+    <div class="gallery">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</section>
+
+<section class="reviews">
+    <h2>Отзывы студентов</h2>
+    <p><strong>Анна:</strong> «Курс понятный, а обратная связь очень качественная!»</p>
+    <p><strong>Илья:</strong> «С нуля сделал своё портфолио!»</p>
+</section>
+
+<section>
+    <h2>Оставьте заявку</h2>
+    <form>
+        <input type="text" placeholder="Ваше имя" required>
+        <input type="email" placeholder="Email" required>
+        <input type="tel" placeholder="Телефон" required>
+        <button>Получить доступ</button>
+    </form>
+</section>
+
+<footer>
+    © 2025 Курс «Основы Веб-разработки»  
+</footer>
+
+</body>
+</html>
